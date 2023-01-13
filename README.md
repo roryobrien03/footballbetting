@@ -1,4 +1,4 @@
-# footballbetting
+Football Betting Project
 
 This project aimed to analyse if it could be profitable to use one consistent strategy for betting in Premier League games throughout a season. I used the 2018/2019 season for this analysis.
 
