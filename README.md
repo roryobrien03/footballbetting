@@ -14,6 +14,8 @@ I used python for this project, using pandas to read the csv file downloaded fro
 
 Overall, the results of the project were unsurprising. All but one of the consistent strategies resulted in a loss. The only one where a profit was made was betting on the home team to win. This yielded a profit of $20.37 and a Return on Investment of 5.36% . 
 
+On further inspection, importing the count.py file to find out the number of home wins (181), draws (128), and away wins (71) throughout the season, it is perhaps unsurprising that betting on home wins would have resulted in a profit.
+
 What particularly interested me was that the consistent betting on a single team resulted in a loss for all 20 teams. You would almost think that betting on the winners (Man City), who won 32/38 games (84.21% of them) would yield a profit. However it instead results in a $15.89 loss (ROI = -41.82%).
 
 
