@@ -9,7 +9,7 @@ Betting on the home team to win each game , Betting on the away team to win each
 Another category I analysed was if a person was to place a bet on a specific team, for each of their 38 games. This accumulates to a stake of $38
 
 
-I used python for this project, using pandas to read the csv file downloaded from https://footystats.org , which contained rows and columns of each match and the odds, and then creating functions for the different criteria by iterating through the rows. I made this an interactive experience so anyone could pick the criteria which interested them to see the Return in dollars and Return on Investment (ROI) of the consistent strategies. This can be seen when you run the "codetorun.py" file.
+I used python for this project, using pandas to read the csv file downloaded from https://footystats.org , which contained rows and columns of each match and the odds, and then created functions for the different criteria by iterating through the rows. I made this an interactive experience so anyone could pick the criteria which interested them to see the Return in dollars and Return on Investment (ROI) of the consistent strategies. This can be seen when you run the "codetorun.py" file.
 
 
 Overall, the results of the project were unsurprising. All but one of the consistent strategies resulted in a loss. The only one where a profit was made was betting on the home team to win. This yielded a profit of $20.37 and a Return on Investment of 5.36% . 
