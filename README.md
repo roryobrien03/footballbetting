@@ -32,6 +32,7 @@ I chose the 10 seasons from 2012/13 to 2021/22.  The way I conducted this experi
 
 After cleaning the data, these are the summary statistics which summarise the returns for each feature in category 1. 
 For every single feature, on average, you would make a loss each season (negative return).  
+
 The maximum return ($108.76) was from a season betting on Away wins, and the minimum return was a season betting on Draws (-98.49$). 
 If I was to guess from personal domain knowledge, I would say that this maximum return for away wins came in either the 2020/21 or the 2021/22 season when there were no crowds in stadiums, which largely reduces the home advantage in football matches. It is possible that the bookies didn't account for this to a large enough extent.
 
