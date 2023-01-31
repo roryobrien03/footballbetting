@@ -4,13 +4,19 @@
 This project sets out to investigate the returns on using different type of strategies for Premier League games in each season:
 
 Category 1:
+
 •	Betting on Home Team to Win
+
 •	Betting on Away Team to Win
+
 •	Betting on a Draw
+
 •	Betting on Underdog to Win
+
 •	Betting on Favourite to Win
 
 Category 2:
+
 •	Betting on a specific team to win
 
 
@@ -65,14 +71,23 @@ Interestingly, returns for betting on underdog wins were very positive in the 20
 Category 2 consists of betting on a specific team to win each game. Since the Premier League consists of a relegation system, I made a list of the 9 teams that haven’t been relegated since the 2012/13 season to analyse fairly. 
 These teams are:
 •	Chelsea
+
 •	Man City
+
 •	Man United
+
 •	Tottenham
+
 •	Everton
+
 •	Liverpool
+
 •	West Ham
+
 •	Arsenal
+
 •	Southampton
+
 
 <img width="460" alt="Screenshot 2023-01-31 at 16 54 10" src="https://user-images.githubusercontent.com/122220434/215829429-aa5af462-7940-4704-bcfb-937c9cd1564f.png">
 
