@@ -30,13 +30,16 @@ I chose the 10 seasons from 2012/13 to 2021/22.  The way I conducted this experi
 
 <img width="450" alt="Screenshot 2023-01-31 at 16 51 40" src="https://user-images.githubusercontent.com/122220434/215828822-80ccb010-9f21-4ef8-96ae-4dd6b6951235.png">
 
+
 After cleaning the data, these are the summary statistics which summarise the returns for each feature in category 1. 
 For every single feature, on average, you would make a loss each season (negative return).  
 
 The maximum return ($108.76) was from a season betting on Away wins, and the minimum return was a season betting on Draws (-98.49$). 
 If I was to guess from personal domain knowledge, I would say that this maximum return for away wins came in either the 2020/21 or the 2021/22 season when there were no crowds in stadiums, which largely reduces the home advantage in football matches. It is possible that the bookies didn't account for this to a large enough extent.
 
+
 <img width="423" alt="Screenshot 2023-01-31 at 16 52 02" src="https://user-images.githubusercontent.com/122220434/215828896-a5a376ce-abd5-44c3-9427-f65b9973c8ab.png">
+
 
 This heatmap shows the correlation between returns for each of the categories. It mainly gives us a better idea of which combinations perform better and worse together
 
@@ -49,20 +52,24 @@ Similarly, Away and Underdog have a strong positive correlation of 0.84. Again a
 
 <img width="473" alt="Screenshot 2023-01-31 at 16 52 27" src="https://user-images.githubusercontent.com/122220434/215828998-2ee20cb9-a0b2-4f95-ab6b-87388cf94dec.png">
 
+
 This is an overall line plot of the data. It can be seen for each feature, there is heavy variance in returns from season-to-season. Most of the returns were negative, depicted by the return mainly being below the black (break-even) line.
 
 
 <img width="455" alt="Screenshot 2023-01-31 at 16 53 09" src="https://user-images.githubusercontent.com/122220434/215829170-e6c5a176-fdc7-475e-b907-b017d41ce400.png">
+
 
 Isolating the line plot for away, we can see that the spike in returns for betting on away wins was indeed in 2020/21, as previously suggested, where there was no crowds in football stadiums. 
 
 
 <img width="456" alt="Screenshot 2023-01-31 at 16 53 24" src="https://user-images.githubusercontent.com/122220434/215829230-0a25d156-0ec4-42a8-8505-c1beeb901341.png">
 
+
 One of the biggest observations that can be seen in draw, is that it is in almost a perfect zig-zag like motion, with the return increasing in one year and falling again the next year (albeit not necessarily being positive) (exception = 2015/16 season where it continued to increase).
 
 
 <img width="463" alt="Screenshot 2023-01-31 at 16 53 42" src="https://user-images.githubusercontent.com/122220434/215829309-5b673b14-58f3-4eee-9707-9efb5ff5c3e3.png">
+
 
 Interestingly, returns for betting on underdog wins were very positive in the 2020/21 season (just like away wins were), before falling greatly in 2021/22, which suggests the bookies corrected their pricing model for underdogs the next season. Either this or there were far fewer underdog wins in 2021/22 than there was in 2020/21. On further inspection, there were 100 underdog wins in the 2020/21 season, and 71 in the 2021/22 season, which suggests the latter.
 
@@ -92,6 +99,7 @@ These teams are:
 
 <img width="460" alt="Screenshot 2023-01-31 at 16 54 10" src="https://user-images.githubusercontent.com/122220434/215829429-aa5af462-7940-4704-bcfb-937c9cd1564f.png">
 
+
 Note that the investment for the teams is $38 in each season. From these statistics, both Tottenham and West Ham have a positive mean return. Including the features in category 1, these are the only positive means throughout this experiment.
 
 The minimum return was Southampton (-22.54 dollars), which is perhaps expected as they are a less established club than the others so on average they would win far less games throughout a season than the others.
@@ -102,16 +110,21 @@ For the two positive means, This means that over the 10 seasons, Tottenham and W
 
 These are quite high in my opinion. The huge maximum return discussed above skews the mean West Ham value though so caution must be taken on that regard.
 
+
 <img width="460" alt="Screenshot 2023-01-31 at 16 54 27" src="https://user-images.githubusercontent.com/122220434/215829484-34f5cddc-e944-4a11-8c6c-0b9e70f35406.png">
+
 
 This plot is obviously quite hard to interpret for each individual team, but we can see the large volatility in the returns from season to season, making it difficult to make out any type of pattern. The outlier of the large return by West Ham in the 2015/16 season is a big standout, as well as the low return of Southampton in the 2017/18 season. Overall it is clear that a loss is the most common return, or else a very low positive return.
 
+
 <img width="463" alt="Screenshot 2023-01-31 at 16 54 52" src="https://user-images.githubusercontent.com/122220434/215829571-99b2df66-3e95-49c2-9ccd-e4b1305ed2e9.png">
+
 
 Isolating the West Ham statistics, it can be seen their returns hover between low positive and low negative returns, and that one outlier season with a very large positive return is skewing their data so the mean is positive.
 
 
 <img width="462" alt="Screenshot 2023-01-31 at 16 55 07" src="https://user-images.githubusercontent.com/122220434/215829628-fdb4a3dc-66c6-4ee9-87a9-257f3fd415b9.png">
+
 
 Interestingly, over the 10 years, returns for Tottenham were negative for only 2 of them. This can be put down to the over-performance of this football club from ~ 2012-2018 in my opinion. Very few critics, and evidently the bookies, expected Tottenham to perform as well as they did throughout these seasons. Thus, if you were someone who had predicted Tottenham’s fortunes beforehand, a healthy profit could’ve been made from placing bets on them to win each game.  
 
